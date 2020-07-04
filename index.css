@@ -30,3 +30,31 @@ body {
 .square:hover {
   transition-duration: 0s;
 }
+
+/* Second box */
+.second {
+  position: absolute;
+  max-width: 100%;
+  top: 100vh;
+}
+
+.square2 {
+  width: 25px;
+  height: 25px;
+  margin: 15px;
+  border-radius: 50%;
+  /* background-color: #1d1d1d; */
+  box-shadow: 0 0 0 #000;
+  transition: 3s ease;
+}
+
+.text {
+  position: absolute;
+  top: 125vh;
+  font-size: 50px;
+  color: rgb(26, 175, 180);
+}
+
+.square2:hover {
+  transition-duration: 0s;
+}
